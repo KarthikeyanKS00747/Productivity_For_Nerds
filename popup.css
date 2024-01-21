@@ -1,0 +1,32 @@
+button{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    position: relative;
+}
+button:hover{
+    font-size: large;
+}
+#spotify{
+    background-color: green;
+    color: white;
+    min-width: 172px;
+    min-height: 30px;
+}
+#visualStudioCode{
+    background-color: mediumblue;
+    color: white;
+    min-width: 172px;
+    min-height: 30px;
+}
+#block{
+    background-color: red;
+    color: white;
+    min-width: 172px;
+    min-height: 30px;
+}
+#comments{
+    background-color: cadetblue;
+    color: white;
+    min-width: 172px;
+    min-height: 30px;
+}

@@ -1,0 +1,32 @@
+{
+    "name":"Productivity for nerds",
+    "version":"1.0",
+    "manifest_version":3,
+    "description":"Productivity Features",
+    "content_scripts":
+    [
+        {
+        "matches": ["https://www.instagram.com/*"],
+        "css": ["instagram.css"]
+        },
+        {
+        "matches" : ["https://www.youtube.com/*"],
+        "js": ["contentscript.js"],
+        "css": ["contentscript.css"]
+        }
+    ],
+    "host_permissions":["<all_urls>"],
+    "icons":{
+    "48":"images/iconproductivityfornerds48.png",
+    "128": "images/iconproductivityfornerds128.png"
+    },
+    "action":{
+        "default_title": "nerd stuff :D",
+        "default_popup":"popup.html",
+        "default_icon": {
+            "16": "images/iconproductivityfornerds16.png",
+            "24": "images/iconproductivityfornerds24.png",
+            "32":"images/iconproductivityfornerds32.png"
+    }
+    }
+}

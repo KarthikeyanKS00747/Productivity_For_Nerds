@@ -1,0 +1,39 @@
+.style-scope ytd-masthead{
+    color: black;
+    background-color: rgb(7,31,65);
+}
+#country-code{
+    display: none;
+}
+/*#center{
+    position: relative;
+    right: 290px;
+}*/
+#content{
+    background-color: rgb(0, 75, 90);
+}
+yt-icon.ytd-logo {
+    font-size: 25px;
+}
+.style-scope ytd-promoted-sparkles-text-search-renderer{
+    display: none;
+}
+.ytp-ce-element{
+    display: none;
+}
+#footer{
+    display: none;
+}
+.sbsb_b{
+    display: none;
+}
+
+style-scope ytd-app{
+    display: none;
+}
+ytd-app:not([use-content-visibility]) #page-manager.ytd-app {
+    display:none;
+}
+ytd-browse {
+    display: none;
+}
