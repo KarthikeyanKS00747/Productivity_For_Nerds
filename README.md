@@ -28,7 +28,6 @@ The extension icon will appear in your Chrome toolbar.
 2. Access the extension settings to customize the list of blocked tags.
 3. Navigate to Instagram or YouTube and experience a more focused browsing experience.
 
-];
 # Contribution
 
 Contributions are encouraged! Feel free to share ideas or contribute to improvements by opening an issue or submitting a pull request.
